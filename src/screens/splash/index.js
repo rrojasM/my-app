@@ -4,6 +4,8 @@ import Button from '../../components/button';
 import styles from './styles';
 
 const Splash = ({ navigation }) => {
+
+
     return (
         <ImageBackground style={styles.backgroundImage} source={require('../../../assets/splash.png')}>
             <View style={styles.container}>
